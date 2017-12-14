@@ -1,0 +1,51 @@
+<style>
+
+ul.navbar  {
+  background: #f4f4f4;
+  margin: 0.5em 0;
+  padding: 0.3em;
+ position: center; }
+ 
+ p.pr {text-align:justified; font-family:Bodoni MT }
+ 
+ h1 {color: #373737; font-family: Bodoni MT 
+ }
+ 
+ h3 {color: #373737; font-family: Bodoni MT 
+ }
+ 
+ p.k {text-align:justified; font-family: Bodoni MT
+ }
+ p.a (text-align:justified; font-family: Bodoni MT}
+ 
+ 
+.myButtonLink {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background:home.png;
+	text-indent: -99999px;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition:opacity 1s ease-in-out;
+  -moz-transition:opacity 1s ease-in-out;
+  -o-transition:opacity 1s ease-in-out;
+  transition:opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
